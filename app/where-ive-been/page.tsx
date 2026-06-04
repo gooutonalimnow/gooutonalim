@@ -10,7 +10,7 @@ import {
 export const metadata: Metadata = {
   title: "Where I've Been | Go Out On A LIM",
   description:
-    "Explore the 126+ countries I've visited across every continent. Real experience, real perspective.",
+    "Explore the 130+ countries I've visited across every continent. Real experience, real perspective.",
 }
 
 export default function WhereIveBeenPage() {
