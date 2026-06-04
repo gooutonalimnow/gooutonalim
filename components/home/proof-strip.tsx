@@ -1,7 +1,7 @@
 import { Globe, Plane, Award, Armchair } from "lucide-react"
 
 const stats = [
-  { icon: Globe, label: "Countries visited", value: "126" },
+  { icon: Globe, label: "Countries visited", value: "130" },
   { icon: Plane, label: "Miles flown", value: "2.8M" },
   { icon: Award, label: "United Airlines & Marriott Bonvoy Hotel", value: "Lifetime Platinum Members" },
   { icon: Armchair, label: "Travel focus", value: "Business & Premium" },
