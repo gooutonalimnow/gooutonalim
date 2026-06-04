@@ -4,7 +4,7 @@
 
 ## About
 
-Go Out On A LIM is a premium travel advisory service founded by Andrew Lim, a seasoned traveler who has visited 128 countries and flown over 2.8 million miles. The service offers thoughtful, experience-based travel planning — not algorithm-driven recommendations.
+Go Out On A LIM is a premium travel advisory service founded by Andrew Lim, a seasoned traveler who has visited 130 countries and flown over 2.8 million miles. The service offers thoughtful, experience-based travel planning — not algorithm-driven recommendations.
 
 ## Services
 

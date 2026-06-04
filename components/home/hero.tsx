@@ -11,7 +11,7 @@ export function Hero() {
             Travel, Beyond The Algorithm.
           </h1>
           <p className="max-w-md text-pretty text-lg leading-relaxed text-muted-foreground">
-            128 countries. 2.8 million miles. Thoughtful journeys built on
+            130 countries. 2.8 million miles. Thoughtful journeys built on
             experience — not algorithms.
           </p>
           <div className="flex flex-wrap gap-4 pt-2">
