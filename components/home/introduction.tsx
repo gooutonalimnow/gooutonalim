@@ -28,7 +28,7 @@ export function Introduction() {
                 href="/where-ive-been"
                 className="font-medium text-accent underline underline-offset-2 transition-colors hover:text-accent/80"
               >
-                128 countries
+                130 countries
               </Link>
               , flown over 2.8 million miles, and spent decades learning how
               travel actually feels — not just how it looks on paper.

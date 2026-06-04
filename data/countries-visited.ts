@@ -22,6 +22,7 @@ export const countriesVisited = {
     "Saudi Arabia",
     "Kuwait",
     "Bahrain",
+    "Ethiopia",
   ],
   "North America": ["United States", "Canada", "Mexico"],
   "Central America": [

@@ -22,7 +22,7 @@ const siteUrl = "https://www.gooutonalim.com"
 export const metadata: Metadata = {
   title: "Go Out On A LIM | Travel, Beyond The Algorithm",
   description:
-    "128 countries. 2.8 million miles. Travel beyond the algorithm with thoughtful journeys built on experience. Premium travel advisory by a seasoned traveler.",
+    "130 countries. 2.8 million miles. Travel beyond the algorithm with thoughtful journeys built on experience. Premium travel advisory by a seasoned traveler.",
   keywords: [
     "travel beyond the algorithm",
     "travel advisory",
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     siteName: "Go Out On A LIM",
     title: "Go Out On A LIM | Travel, Beyond The Algorithm",
     description:
-      "128 countries. 2.8 million miles. Travel beyond the algorithm with thoughtful journeys built on experience. Premium travel advisory by a seasoned traveler.",
+      "130 countries. 2.8 million miles. Travel beyond the algorithm with thoughtful journeys built on experience. Premium travel advisory by a seasoned traveler.",
     images: [
       {
         url: "/og-image.png",
@@ -62,7 +62,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Go Out On A LIM | Travel, Beyond The Algorithm",
     description:
-      "128 countries. 2.8 million miles. Travel beyond the algorithm with thoughtful journeys built on experience.",
+      "130 countries. 2.8 million miles. Travel beyond the algorithm with thoughtful journeys built on experience.",
     images: ["/og-image.png"],
   },
   robots: {
@@ -90,7 +90,7 @@ const jsonLd = {
   "@type": "ProfessionalService",
   name: "Go Out On A LIM",
   description:
-    "Travel beyond the algorithm. Premium travel advisory and concierge services. 128 countries. 2.8 million miles. Thoughtful journeys built on experience.",
+    "Travel beyond the algorithm. Premium travel advisory and concierge services. 130 countries. 2.8 million miles. Thoughtful journeys built on experience.",
   url: siteUrl,
   logo: `${siteUrl}/og-image.png`,
   image: `${siteUrl}/og-image.png`,
