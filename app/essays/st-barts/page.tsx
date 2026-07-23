@@ -3,6 +3,7 @@ import Link from "next/link"
 import Image from "next/image"
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
+import { EssaySignoff } from "@/components/essay-signoff"
 import { ArrowLeft } from "lucide-react"
 
 export const metadata: Metadata = {
@@ -432,6 +433,7 @@ export default function StBartsEssayPage() {
           </div>
         </article>
       </main>
+      <EssaySignoff />
       <Footer />
     </>
   )

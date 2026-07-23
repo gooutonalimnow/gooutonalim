@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import Image from "next/image"
 import Link from "next/link"
 import { ArrowLeft } from "lucide-react"
+import { EssaySignoff } from "@/components/essay-signoff"
 
 export const metadata: Metadata = {
   title: "Riyadh: A City Between Two Worlds | Go Out On A LIM",
@@ -282,6 +283,7 @@ export default function RiyadhEssayPage() {
           </Link>
         </div>
       </article>
+      <EssaySignoff />
     </main>
   )
 }

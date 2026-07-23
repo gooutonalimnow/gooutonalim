@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
+import { EssaySignoff } from "@/components/essay-signoff"
 import Image from "next/image"
 import Link from "next/link"
 import { ArrowLeft } from "lucide-react"
@@ -484,6 +485,7 @@ export default function IslandHopperEssayPage() {
           </div>
         </article>
       </main>
+      <EssaySignoff />
       <Footer />
     </>
   )
