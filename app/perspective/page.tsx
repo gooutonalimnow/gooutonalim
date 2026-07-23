@@ -51,6 +51,22 @@ const journeys = [
     title: "Journey Snapshot",
     youtubeId: "Te5KPog5kkk",
   },
+  {
+    title: "Travel Short",
+    youtubeId: "BdK-JcOwwOY",
+  },
+  {
+    title: "Travel Short",
+    youtubeId: "nOHIrx0z2nQ",
+  },
+  {
+    title: "Travel Short",
+    youtubeId: "v3ncbhrpxdc",
+  },
+  {
+    title: "Travel Short",
+    youtubeId: "iwxqkRndB-k",
+  },
 ]
 
 const essays = [
