@@ -37,6 +37,26 @@ const featuredVideos = [
     title: "Discovering New Horizons",
     videoId: "8Fc8TP05Wfs",
   },
+  {
+    title: "Come Along on Another Journey with Me",
+    videoId: "_UFxY5YPKRQ",
+  },
+  {
+    title: "Exploring the World One Trip at a Time",
+    videoId: "ko3dcOBYPr4",
+  },
+  {
+    title: "A Story from the Road",
+    videoId: "XhyCaeKR_RM",
+  },
+  {
+    title: "Moments Worth the Miles",
+    videoId: "dWOuGjandjk",
+  },
+  {
+    title: "Where the Journey Takes Us",
+    videoId: "ZS2GGE56338",
+  },
 ]
 
 export function YouTubeShowcase() {
