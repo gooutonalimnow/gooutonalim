@@ -67,6 +67,10 @@ const journeys = [
     title: "Travel Short",
     youtubeId: "iwxqkRndB-k",
   },
+  {
+    title: "Travel Short",
+    youtubeId: "2NjZZO7_KSY",
+  },
 ]
 
 const essays = [
