@@ -71,6 +71,12 @@ const journeys = [
 
 const essays = [
   {
+    title: "Kuwait City After Dark: Discovering the Vibrant Heart of the Gulf",
+    excerpt:
+      "While Dubai and Doha steal the spotlight, Kuwait City comes alive after dark. From the Kuwait Towers to Souq Al-Mubarakiya, discover the true energy center of the Gulf.",
+    href: "/essays/kuwait-city",
+  },
+  {
     title: "Riyadh: A City Between Two Worlds",
     excerpt:
       "Experience Riyadh's striking contrasts - from futuristic metro stations to Al Masmak Palace, from Kingdom Centre to the Edge of the World.",
