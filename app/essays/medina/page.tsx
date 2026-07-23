@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import Image from "next/image"
 import Link from "next/link"
 import { ArrowLeft } from "lucide-react"
+import { EssaySignoff } from "@/components/essay-signoff"
 
 export const metadata: Metadata = {
   title: "Medina: Walking Through Faith, History, and Time | Go Out On A LIM",
@@ -383,6 +384,8 @@ export default function MedinaEssay() {
           <p>You walk through it—and somehow, it stays with you.</p>
         </div>
       </div>
+
+      <EssaySignoff />
 
       {/* Footer Navigation */}
       <footer className="border-t border-border/60">

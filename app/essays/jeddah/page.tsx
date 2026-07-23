@@ -4,6 +4,7 @@ import Link from "next/link"
 import { ArrowLeft } from "lucide-react"
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
+import { EssaySignoff } from "@/components/essay-signoff"
 
 export const metadata: Metadata = {
   title: "Jeddah: Where Saudi Arabia Opens Its Doors | Go Out On A LIM",
@@ -254,6 +255,7 @@ export default function JeddahEssayPage() {
           </div>
         </article>
       </main>
+      <EssaySignoff />
       <Footer />
     </>
   )

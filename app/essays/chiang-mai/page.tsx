@@ -4,6 +4,7 @@ import Link from "next/link"
 import { ArrowLeft } from "lucide-react"
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
+import { EssaySignoff } from "@/components/essay-signoff"
 
 export const metadata: Metadata = {
   title: "In Search of the Perfect Khao Soi | Go Out On A LIM",
@@ -338,6 +339,7 @@ export default function ChiangMaiEssayPage() {
           </div>
         </article>
       </main>
+      <EssaySignoff />
       <Footer />
     </>
   )
