@@ -327,6 +327,48 @@ export default function WorkWithMePage() {
             )}
           </div>
         </section>
+
+        {/* How payment works */}
+        <section className="border-t border-border/60">
+          <div className="mx-auto max-w-2xl px-6 py-16 md:py-20">
+            <p className="text-sm font-medium uppercase tracking-widest text-accent">
+              How payment works
+            </p>
+            <h2 className="mt-3 text-balance text-2xl font-medium leading-tight tracking-tight md:text-3xl">
+              Simple, secure, and only after we&apos;re a fit.
+            </h2>
+            <div className="mt-6 flex flex-col gap-4 text-pretty leading-relaxed text-muted-foreground">
+              <p>
+                Reaching out is always free. After our first conversation, if
+                you&apos;d like hands-on help, advisory is billed at{" "}
+                <span className="font-medium text-foreground">
+                  $150 per hour
+                </span>
+                , scoped to what you actually need — a single decision, a full
+                itinerary, or ongoing support.
+              </p>
+              <p>
+                Once we agree on the work, you&apos;ll receive a secure invoice
+                by email with the hours itemized. Just click the link to pay by
+                card — payment is processed by{" "}
+                <span className="font-medium text-foreground">Stripe</span>, so
+                your card details are handled entirely on their secure page and
+                never touch this site.
+              </p>
+              <p className="text-sm">
+                For larger engagements, I may ask for a prepaid block of hours
+                or a deposit before starting. See our{" "}
+                <Link
+                  href="/terms"
+                  className="underline underline-offset-4 transition-colors hover:text-foreground"
+                >
+                  Terms of Service
+                </Link>{" "}
+                for details.
+              </p>
+            </div>
+          </div>
+        </section>
       </main>
       <Footer />
     </>
