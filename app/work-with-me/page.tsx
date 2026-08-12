@@ -3,6 +3,7 @@
 import React from "react"
 
 import Image from "next/image"
+import Link from "next/link"
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
 import { VideoPlayer } from "@/components/video-player"
@@ -304,6 +305,24 @@ export default function WorkWithMePage() {
                   {loading ? "Sending..." : "Start the conversation"}
                   <Send className="h-4 w-4" />
                 </button>
+
+                <p className="text-xs leading-relaxed text-muted-foreground">
+                  By submitting this form, you agree to our{" "}
+                  <Link
+                    href="/privacy"
+                    className="underline underline-offset-4 transition-colors hover:text-foreground"
+                  >
+                    Privacy Policy
+                  </Link>{" "}
+                  and{" "}
+                  <Link
+                    href="/terms"
+                    className="underline underline-offset-4 transition-colors hover:text-foreground"
+                  >
+                    Terms of Service
+                  </Link>
+                  .
+                </p>
               </form>
             )}
           </div>

@@ -36,6 +36,16 @@ export function Footer() {
                   Work With Me
                 </Link>
               </li>
+              <li>
+                <Link href="/privacy" className="transition-colors hover:text-foreground">
+                  Privacy
+                </Link>
+              </li>
+              <li>
+                <Link href="/terms" className="transition-colors hover:text-foreground">
+                  Terms
+                </Link>
+              </li>
             </ul>
           </nav>
 
