@@ -39,6 +39,8 @@ export default function WorkWithMePage() {
     const priorities = formData.get("matters")?.toString().split(",").map(s => s.trim()) || []
     
     const data = {
+      firstName: formData.get("firstName"),
+      lastName: formData.get("lastName"),
       destination: formData.get("destination"),
       priorities,
       involvement: formData.get("involvement"),
@@ -115,6 +117,42 @@ export default function WorkWithMePage() {
               </div>
             ) : (
               <form onSubmit={handleSubmit} className="flex flex-col gap-8">
+                {/* Name */}
+                <div className="grid gap-4 sm:grid-cols-2">
+                  <div className="flex flex-col gap-2">
+                    <label
+                      htmlFor="firstName"
+                      className="text-sm font-medium text-foreground"
+                    >
+                      First name
+                    </label>
+                    <input
+                      id="firstName"
+                      name="firstName"
+                      type="text"
+                      required
+                      placeholder="First name"
+                      className="border border-border bg-background px-4 py-3 text-foreground placeholder:text-muted-foreground/60 focus:outline-none focus:ring-2 focus:ring-accent/40"
+                    />
+                  </div>
+                  <div className="flex flex-col gap-2">
+                    <label
+                      htmlFor="lastName"
+                      className="text-sm font-medium text-foreground"
+                    >
+                      Last name
+                    </label>
+                    <input
+                      id="lastName"
+                      name="lastName"
+                      type="text"
+                      required
+                      placeholder="Last name"
+                      className="border border-border bg-background px-4 py-3 text-foreground placeholder:text-muted-foreground/60 focus:outline-none focus:ring-2 focus:ring-accent/40"
+                    />
+                  </div>
+                </div>
+
                 {/* Destination */}
                 <div className="flex flex-col gap-2">
                   <label
