@@ -6,12 +6,15 @@ const resend = new Resend(process.env.RESEND_API_KEY)
 export async function POST(request: Request) {
   try {
     const body = await request.json()
-    const { destination, priorities, involvement, timeline, budget, email, phone } = body
+    const { firstName, lastName, destination, priorities, involvement, timeline, budget, email, phone } = body
+
+    const fullName = [firstName, lastName].filter(Boolean).join(" ").trim()
 
     // Format the email content
     const emailContent = `
 New Travel Inquiry from Go Out On A LIM
 
+Name: ${fullName || "Not provided"}
 Contact Email: ${email}
 Phone: ${phone || "Not provided"}
 
