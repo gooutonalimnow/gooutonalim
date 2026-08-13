@@ -339,14 +339,29 @@ export default function WorkWithMePage() {
             </h2>
             <div className="mt-6 flex flex-col gap-4 text-pretty leading-relaxed text-muted-foreground">
               <p>
-                Reaching out is always free. After our first conversation, if
-                you&apos;d like hands-on help, advisory is billed at{" "}
-                <span className="font-medium text-foreground">
-                  $150 per hour
-                </span>
-                , scoped to what you actually need — a single decision, a full
-                itinerary, or ongoing support.
+                Reaching out is always free. After our first conversation, the
+                right pricing depends on the kind of help you need:
               </p>
+              <ul className="flex flex-col gap-3">
+                <li>
+                  <span className="font-medium text-foreground">
+                    Travel advisory
+                  </span>{" "}
+                  — billed hourly at{" "}
+                  <span className="font-medium text-foreground">
+                    $150 per hour
+                  </span>
+                  , ideal for a single decision or a focused second opinion.
+                </li>
+                <li>
+                  <span className="font-medium text-foreground">
+                    Concierge planning &amp; ongoing concierge
+                  </span>{" "}
+                  — scoped as a flat project fee or a custom retainer, since
+                  these involve deeper, continuous work. We&apos;ll agree on the
+                  pricing together before anything begins.
+                </li>
+              </ul>
               <p>
                 Once we agree on the work, you&apos;ll receive a secure invoice
                 by email with the hours itemized. Just click the link to pay by
