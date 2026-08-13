@@ -349,7 +349,7 @@ export default function WorkWithMePage() {
                   </span>{" "}
                   — billed hourly at{" "}
                   <span className="font-medium text-foreground">
-                    $150 per hour
+                    $150 USD per hour
                   </span>
                   , ideal for a single decision or a focused second opinion.
                 </li>
