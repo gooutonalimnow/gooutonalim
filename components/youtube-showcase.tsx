@@ -57,6 +57,10 @@ const featuredVideos = [
     title: "Where the Journey Takes Us",
     videoId: "ZS2GGE56338",
   },
+  {
+    title: "Chasing the Next Adventure",
+    videoId: "pjDpxxUyBKU",
+  },
 ]
 
 export function YouTubeShowcase() {
