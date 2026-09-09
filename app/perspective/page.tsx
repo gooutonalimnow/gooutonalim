@@ -75,6 +75,12 @@ const journeys = [
 
 const essays = [
   {
+    title: "Manama Unhurried: A Quieter Corner of the Gulf",
+    excerpt:
+      "Bahrain won't overwhelm you with sights, but Manama offers a fascinating, less conservative counterpoint to its Gulf neighbors - from Bahrain Fort to the souk, Haji's Cafe, and the sail-shaped World Trade Center.",
+    href: "/essays/bahrain",
+  },
+  {
     title: "Kuwait City After Dark: Discovering the Vibrant Heart of the Gulf",
     excerpt:
       "While Dubai and Doha steal the spotlight, Kuwait City comes alive after dark. From the Kuwait Towers to Souq Al-Mubarakiya, discover the true energy center of the Gulf.",
