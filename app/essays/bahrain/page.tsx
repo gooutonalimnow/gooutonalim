@@ -74,9 +74,9 @@ export default function BahrainEssay() {
       </header>
 
       {/* Hero Image */}
-      <div className="mx-auto max-w-4xl px-6">
+      <div className="mx-auto max-w-xl px-6">
         <figure>
-          <div className="relative aspect-[3/4] overflow-hidden rounded-sm bg-muted md:aspect-[16/10]">
+          <div className="relative aspect-[4/5] overflow-hidden rounded-sm bg-muted">
             <Image
               src="/images/essays/bahrain/bahrain01.jpg"
               alt="Looking toward the Bahrain World Trade Center twin towers at dusk"
@@ -91,7 +91,7 @@ export default function BahrainEssay() {
       {/* Essay Content */}
       <div className="mx-auto max-w-3xl px-6 py-16">
         <div className="prose prose-lg prose-neutral dark:prose-invert max-w-none">
-          <p className="text-xl leading-relaxed text-muted-foreground">
+          <p className="text-2xl font-medium leading-relaxed text-foreground md:text-3xl">
             Bahrain is not a place you visit for a long checklist of sights.
           </p>
 
@@ -107,7 +107,7 @@ export default function BahrainEssay() {
           </p>
         </div>
 
-        <div className="prose prose-lg prose-neutral dark:prose-invert max-w-none">
+        <div className="prose prose-lg prose-neutral dark:prose-invert max-w-none mt-12">
           <h2 className="font-serif text-2xl font-medium text-foreground">
             Bahrain Fort
           </h2>
