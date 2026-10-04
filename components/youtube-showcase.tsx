@@ -75,7 +75,30 @@ const featuredVideos = [
   },
 ]
 
-export function YouTubeShowcase() {
+async function getYouTubeTitle(videoId: string, fallbackTitle: string) {
+  try {
+    const response = await fetch(
+      `https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=${videoId}&format=json`,
+      { next: { revalidate: 86400 } },
+    )
+
+    if (!response.ok) return fallbackTitle
+
+    const data = (await response.json()) as { title?: string }
+    return data.title?.trim() || fallbackTitle
+  } catch {
+    return fallbackTitle
+  }
+}
+
+export async function YouTubeShowcase() {
+  const videos = await Promise.all(
+    featuredVideos.map(async (video) => ({
+      ...video,
+      title: await getYouTubeTitle(video.videoId, video.title),
+    })),
+  )
+
   return (
     <section className="border-t border-border/60">
       <div className="mx-auto max-w-6xl px-6 py-20 md:py-28">
@@ -104,7 +127,7 @@ export function YouTubeShowcase() {
         </div>
 
         <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {featuredVideos.map((video) => (
+          {videos.map((video) => (
             <div key={video.title} className="flex flex-col gap-3">
               <div className="relative aspect-video overflow-hidden rounded-md bg-primary/5">
                 <iframe
