@@ -65,6 +65,14 @@ const featuredVideos = [
     title: "A Journey Through Bahrain",
     videoId: "Jccca4zWv3M",
   },
+  {
+    title: "Another Journey Worth Taking",
+    videoId: "g5e3PLikdSE",
+  },
+  {
+    title: "A New Perspective on Travel",
+    videoId: "Ru9UzJYxA1s",
+  },
 ]
 
 export function YouTubeShowcase() {
