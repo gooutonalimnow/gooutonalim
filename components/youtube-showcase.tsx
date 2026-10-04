@@ -61,6 +61,10 @@ const featuredVideos = [
     title: "Chasing the Next Adventure",
     videoId: "pjDpxxUyBKU",
   },
+  {
+    title: "A Journey Through Bahrain",
+    videoId: "Jccca4zWv3M",
+  },
 ]
 
 export function YouTubeShowcase() {
