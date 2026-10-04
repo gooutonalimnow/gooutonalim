@@ -71,6 +71,26 @@ const journeys = [
     title: "Travel Short",
     youtubeId: "2NjZZO7_KSY",
   },
+  {
+    title: "Travel Short",
+    youtubeId: "g4ekuiN7AQk",
+  },
+  {
+    title: "Travel Short",
+    youtubeId: "kxvnwda_uqA",
+  },
+  {
+    title: "Travel Short",
+    youtubeId: "xI2zvjtO3Lc",
+  },
+  {
+    title: "Travel Short",
+    youtubeId: "paaXCij2-6I",
+  },
+  {
+    title: "Travel Short",
+    youtubeId: "Wrh9uu21pOg",
+  },
 ]
 
 const essays = [
