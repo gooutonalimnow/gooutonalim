@@ -3,6 +3,7 @@ import Link from "next/link"
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
 import { YouTubeShowcase } from "@/components/youtube-showcase"
+import { PressFeature } from "@/components/press-feature"
 
 export const metadata: Metadata = {
   title: "Perspective | Go Out On A LIM",
@@ -168,6 +169,8 @@ export default function PerspectivePage() {
             art of moving through the world with intention.
           </p>
         </section>
+
+        <PressFeature />
 
         {/* Selected Journeys */}
         <section className="border-t border-border/60 bg-secondary/40">
