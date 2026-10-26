@@ -50,6 +50,26 @@ export function PressFeature() {
               <Image src="/images/press/wine-enthusiast-excerpt.jpg" alt="Wine Enthusiast article excerpt featuring Andrew Lim discussing Mileștii Mici" width={1200} height={1600} className="h-auto max-h-[38rem] w-full object-cover object-top" />
             </figure>
           </article>
+
+          <article className="grid gap-8 md:grid-cols-[0.8fr_1.2fr] md:items-center lg:block">
+            <div>
+              <h2 className="max-w-xl text-balance font-serif text-4xl font-medium leading-tight tracking-tight md:text-5xl">
+                Featured in Exame
+              </h2>
+              <p className="mt-5 max-w-lg text-pretty leading-relaxed text-primary-foreground/75">
+                Exame highlights Andrew Lim&apos;s collection of nearly 200 airline amenity kits gathered across more than 3 million miles of flying.
+              </p>
+              <p className="mt-4 text-sm text-primary-foreground/60">
+                Exame · Brasil · Português
+              </p>
+              <a href="https://exame.com/casual/os-kits-de-aviao-que-viraram-objeto-de-colecao" target="_blank" rel="noopener noreferrer" className="mt-8 inline-flex items-center gap-2 border-b border-accent pb-1 text-sm font-medium transition-colors hover:text-accent">
+                Ler a matéria <ArrowUpRight className="h-4 w-4" aria-hidden="true" />
+              </a>
+            </div>
+            <figure className="mt-8 overflow-hidden rounded-sm bg-primary-foreground/10 lg:mt-10">
+              <Image src="/images/press/exame-excerpt.jpg" alt="Exame article excerpt about Andrew Lim&apos;s airline amenity kit collection" width={1200} height={1600} className="h-auto max-h-[38rem] w-full object-cover object-top" />
+            </figure>
+          </article>
         </div>
       </div>
     </section>
